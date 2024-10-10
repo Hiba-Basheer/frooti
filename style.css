@@ -1,0 +1,62 @@
+body {
+    overflow-x: hidden;
+  }
+  
+.logo-text{
+    font-family: 'Ariata'; 
+    src:url('fonts/Ariata/woff2') format('woff2'), url('fonts/Ariata/woff') format('woff2');
+    
+}
+ 
+
+/* Change the text color*/
+.nav-link:hover {
+    color: rgba(255, 60, 0, 0.966) !important;
+    transition: 0.2s;
+    /* Bootstrap’s default styles are overridden by the custom hover color. */
+  }
+
+  /* Change the dropdown background color to red */
+  .dropdown-menu {
+    background-color: red !important;
+  }
+.dropdown-menu:hover{
+    color: white;
+}
+ /* Custom styles for round icons */
+ .social-icon {
+    width: 30px; 
+    height: 30px; 
+    border-radius: 50%; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none; /* Remove underline */
+    background-color: black; 
+    color: white;
+    transition: background-color 0.3s; /* Smooth background color change */
+
+}
+
+
+
+/* Change background color on hover */
+.social-icon:hover {
+    opacity: 0.8; /* Slightly reduce opacity on hover */
+    background-color: #ff0000;
+}
+
+.dropdown-item:hover {
+    color: red; 
+}
+.list-unstyled li:hover{
+    cursor:pointer;
+    color: #ff0000; 
+    text-decoration: underline;
+    
+}
+.strong:hover{
+color: #ff0000;
+cursor: pointer;
+text-decoration: underline;
+}
